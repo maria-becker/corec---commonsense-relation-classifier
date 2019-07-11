@@ -1,4 +1,4 @@
-#### COREC - a neural multi-label COmmonsense RElation Classification system
+### COREC - a neural multi-label COmmonsense RElation Classification system
 
 When using the classifier, please cite the following paper: 
 
@@ -9,7 +9,7 @@ Gothenburg, Sweden.
 https://www.aclweb.org/anthology/W19-0801
 
 
-INSTRUCTIONS
+### INSTRUCTIONS
 
 Three files are needed to run the neural networks for commonsense relation classification.
 
