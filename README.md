@@ -1,4 +1,4 @@
-COREC - A neural multi-label COmmonsense RElation Classification
+#### COREC - a neural multi-label COmmonsense RElation Classification system
 
 When using the classifier, please cite the following paper: 
 
