@@ -1,5 +1,12 @@
 ### COREC - a neural multi-label COmmonsense RElation Classification system
 
+We examine the learnability of Commonsense knowledge relations as represented in CONCEPTNET. 
+We develop a neural open world multi-label classification system that focuses on the evaluation of classification accuracy for individual relations. 
+Based on an in-depth study of the specific properties of the CONCEPTNET resource such as relation ambiguity or argument heterogeneity, 
+we investigate the impact of different relation representations and model variations. 
+Our analysis reveals that the complexity of argument types and relation ambiguity are the most important challenges to address. 
+We design a customized evaluation method to address the incompleteness of the resource that can be expanded in future work.
+
 When using the classifier, please cite the following paper: 
 
 Becker, M., Staniek, M., Nastase, V., Frank, A. (2019):
