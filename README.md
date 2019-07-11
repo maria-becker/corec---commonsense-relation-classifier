@@ -11,13 +11,13 @@ https://www.aclweb.org/anthology/W19-0801
 
 ### INSTRUCTIONS
 
-Three files are needed to run the neural networks for commonsense relation classification.
+Three files are needed to run the neural networks for commonsense relation classification:
 
-### data_reader.py
+### data_reader_mcl.py
 
-data_reader.py contains the classes DataReader and the class Triple.
+data_reader_mlc.py contains the classes DataReader and the class Triple.
 
-The class DataReader takes as an argument the file containing the following: LeftEntity, RightEntity, Relation (separated by \t). It iters over the file
+The class DataReader takes as an argument the file containing the following: LeftEntity, RightEntity, Relation (Relation2, Relation3... for multi-label instances), separated by \t . It iters over the file
 and turns every line into a Triple-object.
 
 The Triple class takes a line formatted as above and simply splits it into its parts, contained in the variables: self.left_term, self.right_term, self.relation.
